@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.0)
+project(all_projects)
+include_directories(bitwise)
+add_executable(all_projects main_bt.cpp)
+add_subdirectory(src/Actual_interview_questions)
+add_subdirectory(src/Graphs)
+add_subdirectory(src/Trees)
+target_link_libraries(all_projects bfs bitwise bt)

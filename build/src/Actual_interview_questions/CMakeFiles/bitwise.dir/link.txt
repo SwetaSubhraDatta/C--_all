@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbitwise.a CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o
+/usr/bin/ranlib libbitwise.a

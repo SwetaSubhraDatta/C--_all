@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Graphs/BFS -I/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/all_projects.dir/main_bt.cpp.o -c /home/rob/VScodeProjects/C++_all/main_bt.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/main_bt.cpp"
+},
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Actual_interview_questions",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung -g -o CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp"
+},
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Graphs",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Graphs/BFS -g -o CMakeFiles/bfs.dir/BFS/733.flood_fill.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Graphs/BFS/733.flood_fill.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/src/Graphs/BFS/733.flood_fill.cpp"
+},
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Graphs",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Graphs/BFS -g -o CMakeFiles/bfs.dir/BFS/463.Island_perimter.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Graphs/BFS/463.Island_perimter.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/src/Graphs/BFS/463.Island_perimter.cpp"
+},
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Graphs",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Graphs/BFS -g -o CMakeFiles/bfs.dir/BFS/695.Max_island_area.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Graphs/BFS/695.Max_island_area.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/src/Graphs/BFS/695.Max_island_area.cpp"
+},
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/Binary_tree.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/Binary_tree.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/Binary_tree.cpp"
+}
+]

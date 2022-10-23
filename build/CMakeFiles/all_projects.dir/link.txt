@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/all_projects.dir/main_bt.cpp.o -o all_projects  src/Graphs/libbfs.a src/Actual_interview_questions/libbitwise.a src/Trees/libbt.a 

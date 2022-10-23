@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbt.a CMakeFiles/bt.dir/BT/Binary_tree.cpp.o
+/usr/bin/ranlib libbt.a

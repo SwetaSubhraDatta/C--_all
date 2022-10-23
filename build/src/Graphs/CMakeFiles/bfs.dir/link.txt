@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbfs.a CMakeFiles/bfs.dir/BFS/733.flood_fill.cpp.o CMakeFiles/bfs.dir/BFS/463.Island_perimter.cpp.o CMakeFiles/bfs.dir/BFS/695.Max_island_area.cpp.o
+/usr/bin/ranlib libbfs.a
