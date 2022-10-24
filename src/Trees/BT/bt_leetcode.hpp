@@ -30,5 +30,7 @@ class Solution
     int diameterOfBinaryTree(TreeNode* root);
     pair<int,int> diameterofBinaryTree_Optimised(TreeNode* root);
     bool isBalanced(TreeNode* root);
+    bool isSameTree(TreeNode* p, TreeNode* q);
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root);
     int min_depth(TreeNode* n);
 };

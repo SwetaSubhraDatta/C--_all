@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 project(all_projects)
+set(CMAKE_CXX_STANDARD 11)
 include_directories(bitwise)
 add_executable(all_projects main_bt.cpp)
 add_subdirectory(src/Actual_interview_questions)

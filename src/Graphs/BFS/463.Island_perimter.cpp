@@ -1,7 +1,7 @@
 #include "bfs.hpp"
 
 
-inline pair<int,int> get_starting_position(vector<vector<int>>&grid)
+inline pair<int,int> get_starting_position(vector<vector<int>> &grid)
 {
     for(int i=0;i<grid.size();i++)
     {
