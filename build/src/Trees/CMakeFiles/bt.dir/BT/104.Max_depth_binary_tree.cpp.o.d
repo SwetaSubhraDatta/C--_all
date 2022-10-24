@@ -1,6 +1,7 @@
-CMakeFiles/all_projects.dir/main_bt.cpp.o: \
- /home/rob/VScodeProjects/C++_all/main_bt.cpp /usr/include/stdc-predef.h \
- /home/rob/VScodeProjects/C++_all/src/Trees/BT/bt.hpp \
+src/Trees/CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o: \
+ /home/rob/VScodeProjects/C++_all/src/Trees/BT/104.Max_depth_binary_tree.cpp \
+ /usr/include/stdc-predef.h \
+ /home/rob/VScodeProjects/C++_all/src/Trees/BT/bt_leetcode.hpp \
  /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -141,10 +142,8 @@ CMakeFiles/all_projects.dir/main_bt.cpp.o: \
  /usr/include/c++/9/bits/stl_uninitialized.h \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /usr/include/c++/9/limits /usr/include/c++/9/queue \
+ /usr/include/c++/9/limits /usr/include/c++/9/stack \
  /usr/include/c++/9/deque /usr/include/c++/9/bits/stl_deque.h \
- /usr/include/c++/9/bits/deque.tcc /usr/include/c++/9/bits/stl_heap.h \
- /usr/include/c++/9/bits/stl_queue.h \
- /usr/include/c++/9/bits/uses_allocator.h \
- /home/rob/VScodeProjects/C++_all/src/Trees/BT/bt_leetcode.hpp \
- /usr/include/c++/9/stack /usr/include/c++/9/bits/stl_stack.h
+ /usr/include/c++/9/bits/deque.tcc /usr/include/c++/9/bits/stl_stack.h \
+ /usr/include/c++/9/bits/uses_allocator.h /usr/include/c++/9/queue \
+ /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_queue.h

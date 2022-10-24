@@ -1,7 +1,6 @@
-CMakeFiles/all_projects.dir/main_bt.cpp.o: \
- /home/rob/VScodeProjects/C++_all/main_bt.cpp /usr/include/stdc-predef.h \
- /home/rob/VScodeProjects/C++_all/src/Trees/BT/bt.hpp \
- /usr/include/c++/9/iostream \
+src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o: \
+ /home/rob/VScodeProjects/C++_all/src/Trees/BT/107.Reverse_level_order_transversal.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -136,15 +135,14 @@ CMakeFiles/all_projects.dir/main_bt.cpp.o: \
  /usr/include/c++/9/bits/locale_facets.tcc \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
- /usr/include/c++/9/bits/istream.tcc /usr/include/c++/9/vector \
- /usr/include/c++/9/bits/stl_construct.h \
+ /usr/include/c++/9/bits/istream.tcc /usr/include/c++/9/stack \
+ /usr/include/c++/9/deque /usr/include/c++/9/bits/stl_construct.h \
  /usr/include/c++/9/bits/stl_uninitialized.h \
- /usr/include/c++/9/bits/stl_vector.h \
- /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /usr/include/c++/9/limits /usr/include/c++/9/queue \
- /usr/include/c++/9/deque /usr/include/c++/9/bits/stl_deque.h \
- /usr/include/c++/9/bits/deque.tcc /usr/include/c++/9/bits/stl_heap.h \
- /usr/include/c++/9/bits/stl_queue.h \
+ /usr/include/c++/9/bits/stl_deque.h /usr/include/c++/9/bits/deque.tcc \
+ /usr/include/c++/9/bits/stl_stack.h \
  /usr/include/c++/9/bits/uses_allocator.h \
  /home/rob/VScodeProjects/C++_all/src/Trees/BT/bt_leetcode.hpp \
- /usr/include/c++/9/stack /usr/include/c++/9/bits/stl_stack.h
+ /usr/include/c++/9/vector /usr/include/c++/9/bits/stl_vector.h \
+ /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
+ /usr/include/c++/9/limits /usr/include/c++/9/queue \
+ /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_queue.h

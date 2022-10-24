@@ -28,5 +28,25 @@
   "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
   "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/Binary_tree.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/Binary_tree.cpp",
   "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/Binary_tree.cpp"
+},
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/102.Binary_tree_level_order_traversal.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/102.Binary_tree_level_order_traversal.cpp"
+},
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/107.Reverse_level_order_transversal.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/107.Reverse_level_order_transversal.cpp"
+},
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/104.Max_depth_binary_tree.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/104.Max_depth_binary_tree.cpp"
+},
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/111.Min_depth_of_binary_tree.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/111.Min_depth_of_binary_tree.cpp"
 }
 ]

@@ -130,6 +130,102 @@ bt/fast:
 	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/build
 .PHONY : bt/fast
 
+BT/102.Binary_tree_level_order_traversal.o: BT/102.Binary_tree_level_order_traversal.cpp.o
+.PHONY : BT/102.Binary_tree_level_order_traversal.o
+
+# target to build an object file
+BT/102.Binary_tree_level_order_traversal.cpp.o:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o
+.PHONY : BT/102.Binary_tree_level_order_traversal.cpp.o
+
+BT/102.Binary_tree_level_order_traversal.i: BT/102.Binary_tree_level_order_traversal.cpp.i
+.PHONY : BT/102.Binary_tree_level_order_traversal.i
+
+# target to preprocess a source file
+BT/102.Binary_tree_level_order_traversal.cpp.i:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.i
+.PHONY : BT/102.Binary_tree_level_order_traversal.cpp.i
+
+BT/102.Binary_tree_level_order_traversal.s: BT/102.Binary_tree_level_order_traversal.cpp.s
+.PHONY : BT/102.Binary_tree_level_order_traversal.s
+
+# target to generate assembly for a file
+BT/102.Binary_tree_level_order_traversal.cpp.s:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.s
+.PHONY : BT/102.Binary_tree_level_order_traversal.cpp.s
+
+BT/104.Max_depth_binary_tree.o: BT/104.Max_depth_binary_tree.cpp.o
+.PHONY : BT/104.Max_depth_binary_tree.o
+
+# target to build an object file
+BT/104.Max_depth_binary_tree.cpp.o:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o
+.PHONY : BT/104.Max_depth_binary_tree.cpp.o
+
+BT/104.Max_depth_binary_tree.i: BT/104.Max_depth_binary_tree.cpp.i
+.PHONY : BT/104.Max_depth_binary_tree.i
+
+# target to preprocess a source file
+BT/104.Max_depth_binary_tree.cpp.i:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.i
+.PHONY : BT/104.Max_depth_binary_tree.cpp.i
+
+BT/104.Max_depth_binary_tree.s: BT/104.Max_depth_binary_tree.cpp.s
+.PHONY : BT/104.Max_depth_binary_tree.s
+
+# target to generate assembly for a file
+BT/104.Max_depth_binary_tree.cpp.s:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.s
+.PHONY : BT/104.Max_depth_binary_tree.cpp.s
+
+BT/107.Reverse_level_order_transversal.o: BT/107.Reverse_level_order_transversal.cpp.o
+.PHONY : BT/107.Reverse_level_order_transversal.o
+
+# target to build an object file
+BT/107.Reverse_level_order_transversal.cpp.o:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o
+.PHONY : BT/107.Reverse_level_order_transversal.cpp.o
+
+BT/107.Reverse_level_order_transversal.i: BT/107.Reverse_level_order_transversal.cpp.i
+.PHONY : BT/107.Reverse_level_order_transversal.i
+
+# target to preprocess a source file
+BT/107.Reverse_level_order_transversal.cpp.i:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.i
+.PHONY : BT/107.Reverse_level_order_transversal.cpp.i
+
+BT/107.Reverse_level_order_transversal.s: BT/107.Reverse_level_order_transversal.cpp.s
+.PHONY : BT/107.Reverse_level_order_transversal.s
+
+# target to generate assembly for a file
+BT/107.Reverse_level_order_transversal.cpp.s:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.s
+.PHONY : BT/107.Reverse_level_order_transversal.cpp.s
+
+BT/111.Min_depth_of_binary_tree.o: BT/111.Min_depth_of_binary_tree.cpp.o
+.PHONY : BT/111.Min_depth_of_binary_tree.o
+
+# target to build an object file
+BT/111.Min_depth_of_binary_tree.cpp.o:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o
+.PHONY : BT/111.Min_depth_of_binary_tree.cpp.o
+
+BT/111.Min_depth_of_binary_tree.i: BT/111.Min_depth_of_binary_tree.cpp.i
+.PHONY : BT/111.Min_depth_of_binary_tree.i
+
+# target to preprocess a source file
+BT/111.Min_depth_of_binary_tree.cpp.i:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.i
+.PHONY : BT/111.Min_depth_of_binary_tree.cpp.i
+
+BT/111.Min_depth_of_binary_tree.s: BT/111.Min_depth_of_binary_tree.cpp.s
+.PHONY : BT/111.Min_depth_of_binary_tree.s
+
+# target to generate assembly for a file
+BT/111.Min_depth_of_binary_tree.cpp.s:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.s
+.PHONY : BT/111.Min_depth_of_binary_tree.cpp.s
+
 BT/Binary_tree.o: BT/Binary_tree.cpp.o
 .PHONY : BT/Binary_tree.o
 
@@ -163,6 +259,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bt"
+	@echo "... BT/102.Binary_tree_level_order_traversal.o"
+	@echo "... BT/102.Binary_tree_level_order_traversal.i"
+	@echo "... BT/102.Binary_tree_level_order_traversal.s"
+	@echo "... BT/104.Max_depth_binary_tree.o"
+	@echo "... BT/104.Max_depth_binary_tree.i"
+	@echo "... BT/104.Max_depth_binary_tree.s"
+	@echo "... BT/107.Reverse_level_order_transversal.o"
+	@echo "... BT/107.Reverse_level_order_transversal.i"
+	@echo "... BT/107.Reverse_level_order_transversal.s"
+	@echo "... BT/111.Min_depth_of_binary_tree.o"
+	@echo "... BT/111.Min_depth_of_binary_tree.i"
+	@echo "... BT/111.Min_depth_of_binary_tree.s"
 	@echo "... BT/Binary_tree.o"
 	@echo "... BT/Binary_tree.i"
 	@echo "... BT/Binary_tree.s"

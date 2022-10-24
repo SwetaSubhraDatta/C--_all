@@ -141,7 +141,7 @@ CMakeFiles/all_projects.dir/all: src/Trees/CMakeFiles/bt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_projects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_projects.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 0
 .PHONY : CMakeFiles/all_projects.dir/rule
@@ -214,12 +214,12 @@ src/Graphs/CMakeFiles/bfs.dir/clean:
 src/Trees/CMakeFiles/bt.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=9,10 "Built target bt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=9,10,11,12,13,14 "Built target bt"
 .PHONY : src/Trees/CMakeFiles/bt.dir/all
 
 # Build rule for subdir invocation for target.
 src/Trees/CMakeFiles/bt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Trees/CMakeFiles/bt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 0
 .PHONY : src/Trees/CMakeFiles/bt.dir/rule

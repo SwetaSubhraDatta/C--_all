@@ -186,8 +186,13 @@ CMakeFiles/all_projects.dir/main_bt.cpp.o: /home/rob/VScodeProjects/C++_all/main
   /usr/include/c++/9/bits/deque.tcc \
   /usr/include/c++/9/bits/stl_heap.h \
   /usr/include/c++/9/bits/stl_queue.h \
-  /usr/include/c++/9/bits/uses_allocator.h
+  /usr/include/c++/9/bits/uses_allocator.h \
+  /home/rob/VScodeProjects/C++_all/src/Trees/BT/bt_leetcode.hpp \
+  /usr/include/c++/9/stack \
+  /usr/include/c++/9/bits/stl_stack.h
 
+
+/usr/include/c++/9/bits/stl_stack.h:
 
 /usr/include/c++/9/bits/stl_heap.h:
 
@@ -333,6 +338,8 @@ CMakeFiles/all_projects.dir/main_bt.cpp.o: /home/rob/VScodeProjects/C++_all/main
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
+/usr/include/c++/9/stack:
+
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/c++/9/ext/new_allocator.h:
@@ -386,6 +393,8 @@ CMakeFiles/all_projects.dir/main_bt.cpp.o: /home/rob/VScodeProjects/C++_all/main
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h:
+
+/home/rob/VScodeProjects/C++_all/src/Trees/BT/bt_leetcode.hpp:
 
 /usr/include/c++/9/ostream:
 

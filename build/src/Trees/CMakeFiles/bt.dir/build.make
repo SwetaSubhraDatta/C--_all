@@ -83,17 +83,81 @@ src/Trees/CMakeFiles/bt.dir/BT/Binary_tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt.dir/BT/Binary_tree.cpp.s"
 	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rob/VScodeProjects/C++_all/src/Trees/BT/Binary_tree.cpp -o CMakeFiles/bt.dir/BT/Binary_tree.cpp.s
 
+src/Trees/CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o: src/Trees/CMakeFiles/bt.dir/flags.make
+src/Trees/CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o: /home/rob/VScodeProjects/C++_all/src/Trees/BT/102.Binary_tree_level_order_traversal.cpp
+src/Trees/CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o: src/Trees/CMakeFiles/bt.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Trees/CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o"
+	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Trees/CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o -MF CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o.d -o CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/102.Binary_tree_level_order_traversal.cpp
+
+src/Trees/CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.i"
+	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rob/VScodeProjects/C++_all/src/Trees/BT/102.Binary_tree_level_order_traversal.cpp > CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.i
+
+src/Trees/CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.s"
+	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rob/VScodeProjects/C++_all/src/Trees/BT/102.Binary_tree_level_order_traversal.cpp -o CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.s
+
+src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o: src/Trees/CMakeFiles/bt.dir/flags.make
+src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o: /home/rob/VScodeProjects/C++_all/src/Trees/BT/107.Reverse_level_order_transversal.cpp
+src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o: src/Trees/CMakeFiles/bt.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o"
+	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o -MF CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o.d -o CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/107.Reverse_level_order_transversal.cpp
+
+src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.i"
+	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rob/VScodeProjects/C++_all/src/Trees/BT/107.Reverse_level_order_transversal.cpp > CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.i
+
+src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.s"
+	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rob/VScodeProjects/C++_all/src/Trees/BT/107.Reverse_level_order_transversal.cpp -o CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.s
+
+src/Trees/CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o: src/Trees/CMakeFiles/bt.dir/flags.make
+src/Trees/CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o: /home/rob/VScodeProjects/C++_all/src/Trees/BT/104.Max_depth_binary_tree.cpp
+src/Trees/CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o: src/Trees/CMakeFiles/bt.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/Trees/CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o"
+	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Trees/CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o -MF CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o.d -o CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/104.Max_depth_binary_tree.cpp
+
+src/Trees/CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.i"
+	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rob/VScodeProjects/C++_all/src/Trees/BT/104.Max_depth_binary_tree.cpp > CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.i
+
+src/Trees/CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.s"
+	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rob/VScodeProjects/C++_all/src/Trees/BT/104.Max_depth_binary_tree.cpp -o CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.s
+
+src/Trees/CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o: src/Trees/CMakeFiles/bt.dir/flags.make
+src/Trees/CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o: /home/rob/VScodeProjects/C++_all/src/Trees/BT/111.Min_depth_of_binary_tree.cpp
+src/Trees/CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o: src/Trees/CMakeFiles/bt.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/Trees/CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o"
+	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Trees/CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o -MF CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o.d -o CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/111.Min_depth_of_binary_tree.cpp
+
+src/Trees/CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.i"
+	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rob/VScodeProjects/C++_all/src/Trees/BT/111.Min_depth_of_binary_tree.cpp > CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.i
+
+src/Trees/CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.s"
+	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rob/VScodeProjects/C++_all/src/Trees/BT/111.Min_depth_of_binary_tree.cpp -o CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.s
+
 # Object files for target bt
 bt_OBJECTS = \
-"CMakeFiles/bt.dir/BT/Binary_tree.cpp.o"
+"CMakeFiles/bt.dir/BT/Binary_tree.cpp.o" \
+"CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o" \
+"CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o" \
+"CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o" \
+"CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o"
 
 # External object files for target bt
 bt_EXTERNAL_OBJECTS =
 
 src/Trees/libbt.a: src/Trees/CMakeFiles/bt.dir/BT/Binary_tree.cpp.o
+src/Trees/libbt.a: src/Trees/CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o
+src/Trees/libbt.a: src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o
+src/Trees/libbt.a: src/Trees/CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o
+src/Trees/libbt.a: src/Trees/CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o
 src/Trees/libbt.a: src/Trees/CMakeFiles/bt.dir/build.make
 src/Trees/libbt.a: src/Trees/CMakeFiles/bt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libbt.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libbt.a"
 	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && $(CMAKE_COMMAND) -P CMakeFiles/bt.dir/cmake_clean_target.cmake
 	cd /home/rob/VScodeProjects/C++_all/build/src/Trees && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bt.dir/link.txt --verbose=$(VERBOSE)
 
