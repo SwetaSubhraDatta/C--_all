@@ -17,7 +17,7 @@ vector<vector<int>> Solution::levelOrderBottom(TreeNode *root)
 {
     int height = get_height(root);
     queue<TreeNode *> bt;
-    vector<vector<int>> res(height, vector<int>());
+    vector<vector<int>> res(height, (vector<int>(), vector<int>(0)));
     vector<int> levels;
 
     // S1 first put the root into the tree
@@ -46,7 +46,7 @@ vector<vector<int>> Solution::levelOrderBottom(TreeNode *root)
                 bt.push(temp->right);
             }
         }
-        res[--height] = levels;
+        res[--height] = levels;//This is a vector levels not a value
         levels.clear();
     }
 

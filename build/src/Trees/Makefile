@@ -202,6 +202,30 @@ BT/107.Reverse_level_order_transversal.cpp.s:
 	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.s
 .PHONY : BT/107.Reverse_level_order_transversal.cpp.s
 
+BT/110.Balanced_Binary_tree.o: BT/110.Balanced_Binary_tree.cpp.o
+.PHONY : BT/110.Balanced_Binary_tree.o
+
+# target to build an object file
+BT/110.Balanced_Binary_tree.cpp.o:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/110.Balanced_Binary_tree.cpp.o
+.PHONY : BT/110.Balanced_Binary_tree.cpp.o
+
+BT/110.Balanced_Binary_tree.i: BT/110.Balanced_Binary_tree.cpp.i
+.PHONY : BT/110.Balanced_Binary_tree.i
+
+# target to preprocess a source file
+BT/110.Balanced_Binary_tree.cpp.i:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/110.Balanced_Binary_tree.cpp.i
+.PHONY : BT/110.Balanced_Binary_tree.cpp.i
+
+BT/110.Balanced_Binary_tree.s: BT/110.Balanced_Binary_tree.cpp.s
+.PHONY : BT/110.Balanced_Binary_tree.s
+
+# target to generate assembly for a file
+BT/110.Balanced_Binary_tree.cpp.s:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/110.Balanced_Binary_tree.cpp.s
+.PHONY : BT/110.Balanced_Binary_tree.cpp.s
+
 BT/111.Min_depth_of_binary_tree.o: BT/111.Min_depth_of_binary_tree.cpp.o
 .PHONY : BT/111.Min_depth_of_binary_tree.o
 
@@ -225,6 +249,30 @@ BT/111.Min_depth_of_binary_tree.s: BT/111.Min_depth_of_binary_tree.cpp.s
 BT/111.Min_depth_of_binary_tree.cpp.s:
 	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.s
 .PHONY : BT/111.Min_depth_of_binary_tree.cpp.s
+
+BT/543.Diameter_of_BT.o: BT/543.Diameter_of_BT.cpp.o
+.PHONY : BT/543.Diameter_of_BT.o
+
+# target to build an object file
+BT/543.Diameter_of_BT.cpp.o:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/543.Diameter_of_BT.cpp.o
+.PHONY : BT/543.Diameter_of_BT.cpp.o
+
+BT/543.Diameter_of_BT.i: BT/543.Diameter_of_BT.cpp.i
+.PHONY : BT/543.Diameter_of_BT.i
+
+# target to preprocess a source file
+BT/543.Diameter_of_BT.cpp.i:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/543.Diameter_of_BT.cpp.i
+.PHONY : BT/543.Diameter_of_BT.cpp.i
+
+BT/543.Diameter_of_BT.s: BT/543.Diameter_of_BT.cpp.s
+.PHONY : BT/543.Diameter_of_BT.s
+
+# target to generate assembly for a file
+BT/543.Diameter_of_BT.cpp.s:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/543.Diameter_of_BT.cpp.s
+.PHONY : BT/543.Diameter_of_BT.cpp.s
 
 BT/Binary_tree.o: BT/Binary_tree.cpp.o
 .PHONY : BT/Binary_tree.o
@@ -268,9 +316,15 @@ help:
 	@echo "... BT/107.Reverse_level_order_transversal.o"
 	@echo "... BT/107.Reverse_level_order_transversal.i"
 	@echo "... BT/107.Reverse_level_order_transversal.s"
+	@echo "... BT/110.Balanced_Binary_tree.o"
+	@echo "... BT/110.Balanced_Binary_tree.i"
+	@echo "... BT/110.Balanced_Binary_tree.s"
 	@echo "... BT/111.Min_depth_of_binary_tree.o"
 	@echo "... BT/111.Min_depth_of_binary_tree.i"
 	@echo "... BT/111.Min_depth_of_binary_tree.s"
+	@echo "... BT/543.Diameter_of_BT.o"
+	@echo "... BT/543.Diameter_of_BT.i"
+	@echo "... BT/543.Diameter_of_BT.s"
 	@echo "... BT/Binary_tree.o"
 	@echo "... BT/Binary_tree.i"
 	@echo "... BT/Binary_tree.s"

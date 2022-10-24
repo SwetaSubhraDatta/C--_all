@@ -48,5 +48,15 @@
   "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
   "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/111.Min_depth_of_binary_tree.cpp",
   "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/111.Min_depth_of_binary_tree.cpp"
+},
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/543.Diameter_of_BT.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/543.Diameter_of_BT.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/543.Diameter_of_BT.cpp"
+},
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/110.Balanced_Binary_tree.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/110.Balanced_Binary_tree.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/110.Balanced_Binary_tree.cpp"
 }
 ]

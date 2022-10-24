@@ -25,7 +25,10 @@ class Solution
     vector<vector<int>>levelOrder(TreeNode* root);
     vector<vector<int>>levelOrderBottom(TreeNode* root);
     int max_left(TreeNode* root);
-    int max_depth(TreeNode* n,string type);
+    int max_depth(TreeNode* n);
     int max_depth_iterative(TreeNode* n);
+    int diameterOfBinaryTree(TreeNode* root);
+    pair<int,int> diameterofBinaryTree_Optimised(TreeNode* root);
+    bool isBalanced(TreeNode* root);
     int min_depth(TreeNode* n);
 };

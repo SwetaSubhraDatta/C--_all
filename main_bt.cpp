@@ -11,7 +11,7 @@ void test_max_depth_of_the_tree()
     TreeNode* rootree=new TreeNode(1);
     rootree->left=new TreeNode(2);
     rootree->right=new TreeNode(3);
-    soly.max_depth(rootree,"1");
+    soly.max_depth(rootree);
     delete rootree;
 }
 
@@ -36,8 +36,20 @@ void test_level_order_reverse()
     soly.levelOrderBottom(rootree);
 }
 
+void test_diamter_of_the_tree()
+{
+    Solution soly;
+    TreeNode* rootree=new TreeNode(1);
+    rootree->left=new TreeNode(2);
+    rootree->right=new TreeNode(3);
+    rootree->left->left=new TreeNode(4);
+    rootree->left->right=new TreeNode(5);
+    cout<<soly.diameterOfBinaryTree(rootree)<<endl;
+}
+
 int main()
 {
+    test_diamter_of_the_tree();
     test_level_order_reverse();
     test_min_depth_of_the_tree();
 

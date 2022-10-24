@@ -62,13 +62,12 @@ int Solution:: max_depth_iterative(TreeNode* root)
 
 
 
-int Solution:: max_depth(TreeNode*n,string type)
+int Solution:: max_depth(TreeNode*n)
 {
     // if(type=="1")
     // {
     //      cout<<"The max depth of the tree is"<<get_height_with_dfs(n);
     // }
     // return get_height_with_dfs(n);
-    cout<<"The height is "<<max_depth_iterative(n);
     return get_height_with_dfs(n);
 }
