@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rob/VScodeProjects/C++_all
+CMAKE_SOURCE_DIR = /Users/rob/VScodeProjects/C--_all
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rob/VScodeProjects/C++_all/build
+CMAKE_BINARY_DIR = /Users/rob/VScodeProjects/C--_all/build
 
 # Include any dependencies generated for this target.
 include src/Actual_interview_questions/CMakeFiles/bitwise.dir/depend.make
@@ -70,18 +70,18 @@ include src/Actual_interview_questions/CMakeFiles/bitwise.dir/progress.make
 include src/Actual_interview_questions/CMakeFiles/bitwise.dir/flags.make
 
 src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o: src/Actual_interview_questions/CMakeFiles/bitwise.dir/flags.make
-src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o: /home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp
+src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o: /Users/rob/VScodeProjects/C--_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp
 src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o: src/Actual_interview_questions/CMakeFiles/bitwise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o"
-	cd /home/rob/VScodeProjects/C++_all/build/src/Actual_interview_questions && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o -MF CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o.d -o CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rob/VScodeProjects/C--_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o"
+	cd /Users/rob/VScodeProjects/C--_all/build/src/Actual_interview_questions && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o -MF CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o.d -o CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp
 
 src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.i"
-	cd /home/rob/VScodeProjects/C++_all/build/src/Actual_interview_questions && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp > CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.i
+	cd /Users/rob/VScodeProjects/C--_all/build/src/Actual_interview_questions && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rob/VScodeProjects/C--_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp > CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.i
 
 src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.s"
-	cd /home/rob/VScodeProjects/C++_all/build/src/Actual_interview_questions && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp -o CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.s
+	cd /Users/rob/VScodeProjects/C--_all/build/src/Actual_interview_questions && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rob/VScodeProjects/C--_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp -o CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.s
 
 # Object files for target bitwise
 bitwise_OBJECTS = \
@@ -93,19 +93,19 @@ bitwise_EXTERNAL_OBJECTS =
 src/Actual_interview_questions/libbitwise.a: src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o
 src/Actual_interview_questions/libbitwise.a: src/Actual_interview_questions/CMakeFiles/bitwise.dir/build.make
 src/Actual_interview_questions/libbitwise.a: src/Actual_interview_questions/CMakeFiles/bitwise.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libbitwise.a"
-	cd /home/rob/VScodeProjects/C++_all/build/src/Actual_interview_questions && $(CMAKE_COMMAND) -P CMakeFiles/bitwise.dir/cmake_clean_target.cmake
-	cd /home/rob/VScodeProjects/C++_all/build/src/Actual_interview_questions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bitwise.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rob/VScodeProjects/C--_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libbitwise.a"
+	cd /Users/rob/VScodeProjects/C--_all/build/src/Actual_interview_questions && $(CMAKE_COMMAND) -P CMakeFiles/bitwise.dir/cmake_clean_target.cmake
+	cd /Users/rob/VScodeProjects/C--_all/build/src/Actual_interview_questions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bitwise.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/Actual_interview_questions/CMakeFiles/bitwise.dir/build: src/Actual_interview_questions/libbitwise.a
 .PHONY : src/Actual_interview_questions/CMakeFiles/bitwise.dir/build
 
 src/Actual_interview_questions/CMakeFiles/bitwise.dir/clean:
-	cd /home/rob/VScodeProjects/C++_all/build/src/Actual_interview_questions && $(CMAKE_COMMAND) -P CMakeFiles/bitwise.dir/cmake_clean.cmake
+	cd /Users/rob/VScodeProjects/C--_all/build/src/Actual_interview_questions && $(CMAKE_COMMAND) -P CMakeFiles/bitwise.dir/cmake_clean.cmake
 .PHONY : src/Actual_interview_questions/CMakeFiles/bitwise.dir/clean
 
 src/Actual_interview_questions/CMakeFiles/bitwise.dir/depend:
-	cd /home/rob/VScodeProjects/C++_all/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rob/VScodeProjects/C++_all /home/rob/VScodeProjects/C++_all/src/Actual_interview_questions /home/rob/VScodeProjects/C++_all/build /home/rob/VScodeProjects/C++_all/build/src/Actual_interview_questions /home/rob/VScodeProjects/C++_all/build/src/Actual_interview_questions/CMakeFiles/bitwise.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/rob/VScodeProjects/C--_all/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/rob/VScodeProjects/C--_all /Users/rob/VScodeProjects/C--_all/src/Actual_interview_questions /Users/rob/VScodeProjects/C--_all/build /Users/rob/VScodeProjects/C--_all/build/src/Actual_interview_questions /Users/rob/VScodeProjects/C--_all/build/src/Actual_interview_questions/CMakeFiles/bitwise.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/Actual_interview_questions/CMakeFiles/bitwise.dir/depend
 

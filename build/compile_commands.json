@@ -1,62 +1,72 @@
 [
 {
-  "directory": "/home/rob/VScodeProjects/C++_all/build",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Graphs/BFS -I/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/all_projects.dir/main_bt.cpp.o -c /home/rob/VScodeProjects/C++_all/main_bt.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/main_bt.cpp"
+  "directory": "/Users/rob/VScodeProjects/C--_all/build",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Graphs/BFS -I/Users/rob/VScodeProjects/C--_all/src/Actual_interview_questions/Samsung -I/Users/rob/VScodeProjects/C--_all/src/Trees/BT -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/all_projects.dir/main_bt.cpp.o -c /Users/rob/VScodeProjects/C--_all/main_bt.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/main_bt.cpp"
 },
 {
-  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Actual_interview_questions",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung -g -o CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp"
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Actual_interview_questions",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Actual_interview_questions/Samsung -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp"
 },
 {
-  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Graphs",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Graphs/BFS -g -o CMakeFiles/bfs.dir/BFS/733.flood_fill.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Graphs/BFS/733.flood_fill.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/src/Graphs/BFS/733.flood_fill.cpp"
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Graphs",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Graphs/BFS -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bfs.dir/BFS/733.flood_fill.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Graphs/BFS/733.flood_fill.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Graphs/BFS/733.flood_fill.cpp"
 },
 {
-  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Graphs",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Graphs/BFS -g -o CMakeFiles/bfs.dir/BFS/463.Island_perimter.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Graphs/BFS/463.Island_perimter.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/src/Graphs/BFS/463.Island_perimter.cpp"
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Graphs",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Graphs/BFS -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bfs.dir/BFS/463.Island_perimter.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Graphs/BFS/463.Island_perimter.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Graphs/BFS/463.Island_perimter.cpp"
 },
 {
-  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Graphs",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Graphs/BFS -g -o CMakeFiles/bfs.dir/BFS/695.Max_island_area.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Graphs/BFS/695.Max_island_area.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/src/Graphs/BFS/695.Max_island_area.cpp"
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Graphs",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Graphs/BFS -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bfs.dir/BFS/695.Max_island_area.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Graphs/BFS/695.Max_island_area.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Graphs/BFS/695.Max_island_area.cpp"
 },
 {
-  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/Binary_tree.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/Binary_tree.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/Binary_tree.cpp"
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Trees",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Trees/BT -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bt.dir/BT/Binary_tree.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Trees/BT/Binary_tree.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Trees/BT/Binary_tree.cpp"
 },
 {
-  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/102.Binary_tree_level_order_traversal.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/102.Binary_tree_level_order_traversal.cpp"
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Trees",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Trees/BT -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bt.dir/BT/102.Binary_tree_level_order_traversal.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Trees/BT/102.Binary_tree_level_order_traversal.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Trees/BT/102.Binary_tree_level_order_traversal.cpp"
 },
 {
-  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/107.Reverse_level_order_transversal.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/107.Reverse_level_order_transversal.cpp"
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Trees",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Trees/BT -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bt.dir/BT/107.Reverse_level_order_transversal.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Trees/BT/107.Reverse_level_order_transversal.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Trees/BT/107.Reverse_level_order_transversal.cpp"
 },
 {
-  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/104.Max_depth_binary_tree.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/104.Max_depth_binary_tree.cpp"
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Trees",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Trees/BT -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bt.dir/BT/104.Max_depth_binary_tree.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Trees/BT/104.Max_depth_binary_tree.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Trees/BT/104.Max_depth_binary_tree.cpp"
 },
 {
-  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/111.Min_depth_of_binary_tree.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/111.Min_depth_of_binary_tree.cpp"
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Trees",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Trees/BT -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Trees/BT/111.Min_depth_of_binary_tree.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Trees/BT/111.Min_depth_of_binary_tree.cpp"
 },
 {
-  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/543.Diameter_of_BT.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/543.Diameter_of_BT.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/543.Diameter_of_BT.cpp"
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Trees",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Trees/BT -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bt.dir/BT/543.Diameter_of_BT.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Trees/BT/543.Diameter_of_BT.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Trees/BT/543.Diameter_of_BT.cpp"
 },
 {
-  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -o CMakeFiles/bt.dir/BT/110.Balanced_Binary_tree.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/110.Balanced_Binary_tree.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/110.Balanced_Binary_tree.cpp"
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Trees",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Trees/BT -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bt.dir/BT/110.Balanced_Binary_tree.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Trees/BT/110.Balanced_Binary_tree.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Trees/BT/110.Balanced_Binary_tree.cpp"
+},
+{
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Trees",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Trees/BT -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bt.dir/BT/100.Same_tree.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Trees/BT/100.Same_tree.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Trees/BT/100.Same_tree.cpp"
+},
+{
+  "directory": "/Users/rob/VScodeProjects/C--_all/build/src/Trees",
+  "command": "/usr/bin/clang++  -I/Users/rob/VScodeProjects/C--_all/bitwise -I/Users/rob/VScodeProjects/C--_all/src/Trees/BT -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11 -o CMakeFiles/bt.dir/BT/103.Zigzag_traversal.cpp.o -c /Users/rob/VScodeProjects/C--_all/src/Trees/BT/103.Zigzag_traversal.cpp",
+  "file": "/Users/rob/VScodeProjects/C--_all/src/Trees/BT/103.Zigzag_traversal.cpp"
 }
 ]

@@ -37,7 +37,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 3,
+				"line" : 4,
 				"parent" : 2
 			},
 			{
@@ -54,21 +54,32 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk"
+				},
+				{
+					"fragment" : "-std=gnu++11"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/rob/VScodeProjects/C++_all/bitwise"
+					"path" : "/Users/rob/VScodeProjects/C--_all/bitwise"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/rob/VScodeProjects/C++_all/src/Graphs/BFS"
+					"path" : "/Users/rob/VScodeProjects/C--_all/src/Graphs/BFS"
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
 			"sourceIndexes" : 
 			[
 				0,

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp" "src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o" "gcc" "src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o.d"
+  "/Users/rob/VScodeProjects/C--_all/src/Actual_interview_questions/Samsung/bitwise_ops.cpp" "src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o" "gcc" "src/Actual_interview_questions/CMakeFiles/bitwise.dir/Samsung/bitwise_ops.cpp.o.d"
   )
 
 # Targets to which this target links.
