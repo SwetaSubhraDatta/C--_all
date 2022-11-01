@@ -3,6 +3,8 @@
 #include <string>
 #include <limits>
 #include <queue>
+#include <cassert>
+#include <map>
  
 using namespace std;
 
@@ -33,8 +35,10 @@ public:
     void level_order_transversal(Node *n,bool levels);
     void post_order_traversal(Node *n);
     void pre_order_traversal(Node *n);
-    void inorder_traversal(Node *n);
+    void inorder_traversal(Node *n,vector<int>&ans);
+    vector<int> top_view(Node *n);
+    vector<int> bottom_view(Node *n);
+    vector<vector<int>> left_view(Node *n,bool recursion);
+    vector<vector<int>> right_view(Node *n);
     
-
-
 };

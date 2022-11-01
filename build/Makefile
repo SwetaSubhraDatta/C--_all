@@ -48,27 +48,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rob/VScodeProjects/C--_all
+CMAKE_SOURCE_DIR = /home/rob/VScodeProjects/C++_all
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rob/VScodeProjects/C--_all/build
+CMAKE_BINARY_DIR = /home/rob/VScodeProjects/C++_all/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/opt/homebrew/Cellar/cmake/3.24.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rob/VScodeProjects/C--_all/build/CMakeFiles /Users/rob/VScodeProjects/C--_all/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles /home/rob/VScodeProjects/C++_all/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rob/VScodeProjects/C--_all/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,6 +143,19 @@ bitwise/fast:
 .PHONY : bitwise/fast
 
 #=============================================================================
+# Target rules for targets named ll
+
+# Build rule for target.
+ll: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ll
+.PHONY : ll
+
+# fast build rule for target.
+ll/fast:
+	$(MAKE) $(MAKESILENT) -f src/LL/CMakeFiles/ll.dir/build.make src/LL/CMakeFiles/ll.dir/build
+.PHONY : ll/fast
+
+#=============================================================================
 # Target rules for targets named bfs
 
 # Build rule for target.
@@ -168,29 +181,29 @@ bt/fast:
 	$(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/build
 .PHONY : bt/fast
 
-main_bt.o: main_bt.cpp.o
-.PHONY : main_bt.o
+main_ll.o: main_ll.cpp.o
+.PHONY : main_ll.o
 
 # target to build an object file
-main_bt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/main_bt.cpp.o
-.PHONY : main_bt.cpp.o
+main_ll.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/main_ll.cpp.o
+.PHONY : main_ll.cpp.o
 
-main_bt.i: main_bt.cpp.i
-.PHONY : main_bt.i
+main_ll.i: main_ll.cpp.i
+.PHONY : main_ll.i
 
 # target to preprocess a source file
-main_bt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/main_bt.cpp.i
-.PHONY : main_bt.cpp.i
+main_ll.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/main_ll.cpp.i
+.PHONY : main_ll.cpp.i
 
-main_bt.s: main_bt.cpp.s
-.PHONY : main_bt.s
+main_ll.s: main_ll.cpp.s
+.PHONY : main_ll.s
 
 # target to generate assembly for a file
-main_bt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/main_bt.cpp.s
-.PHONY : main_bt.cpp.s
+main_ll.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/main_ll.cpp.s
+.PHONY : main_ll.cpp.s
 
 # Help Target
 help:
@@ -204,9 +217,10 @@ help:
 	@echo "... bfs"
 	@echo "... bitwise"
 	@echo "... bt"
-	@echo "... main_bt.o"
-	@echo "... main_bt.i"
-	@echo "... main_bt.s"
+	@echo "... ll"
+	@echo "... main_ll.o"
+	@echo "... main_ll.i"
+	@echo "... main_ll.s"
 .PHONY : help
 
 

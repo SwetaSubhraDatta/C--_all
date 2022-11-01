@@ -72,7 +72,7 @@ void test_diamter_of_the_tree()
 
 void test_zigzag_trversal()
 {
-    vector<vector<int>>expected={{3},{20,9},{15,7}};
+    vector<vector<int>>expected={{1},{3,2},{4,5}};
     vector<vector<int>>actual;
     Solution soly;
     TreeNode* rootree=new TreeNode(1);

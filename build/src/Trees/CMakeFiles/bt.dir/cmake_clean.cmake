@@ -15,8 +15,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/bt.dir/BT/111.Min_depth_of_binary_tree.cpp.o.d"
   "CMakeFiles/bt.dir/BT/543.Diameter_of_BT.cpp.o"
   "CMakeFiles/bt.dir/BT/543.Diameter_of_BT.cpp.o.d"
+  "CMakeFiles/bt.dir/BT/545.Boundary_of_bt.cpp.o"
+  "CMakeFiles/bt.dir/BT/545.Boundary_of_bt.cpp.o.d"
   "CMakeFiles/bt.dir/BT/Binary_tree.cpp.o"
   "CMakeFiles/bt.dir/BT/Binary_tree.cpp.o.d"
+  "CMakeFiles/bt.dir/BT/gfg1.View_of_bt.cpp.o"
+  "CMakeFiles/bt.dir/BT/gfg1.View_of_bt.cpp.o.d"
   "libbt.a"
   "libbt.pdb"
 )

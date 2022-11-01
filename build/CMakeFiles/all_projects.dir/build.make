@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rob/VScodeProjects/C--_all
+CMAKE_SOURCE_DIR = /home/rob/VScodeProjects/C++_all
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rob/VScodeProjects/C--_all/build
+CMAKE_BINARY_DIR = /home/rob/VScodeProjects/C++_all/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/all_projects.dir/depend.make
@@ -69,34 +69,35 @@ include CMakeFiles/all_projects.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/all_projects.dir/flags.make
 
-CMakeFiles/all_projects.dir/main_bt.cpp.o: CMakeFiles/all_projects.dir/flags.make
-CMakeFiles/all_projects.dir/main_bt.cpp.o: /Users/rob/VScodeProjects/C--_all/main_bt.cpp
-CMakeFiles/all_projects.dir/main_bt.cpp.o: CMakeFiles/all_projects.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rob/VScodeProjects/C--_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/all_projects.dir/main_bt.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/all_projects.dir/main_bt.cpp.o -MF CMakeFiles/all_projects.dir/main_bt.cpp.o.d -o CMakeFiles/all_projects.dir/main_bt.cpp.o -c /Users/rob/VScodeProjects/C--_all/main_bt.cpp
+CMakeFiles/all_projects.dir/main_ll.cpp.o: CMakeFiles/all_projects.dir/flags.make
+CMakeFiles/all_projects.dir/main_ll.cpp.o: /home/rob/VScodeProjects/C++_all/main_ll.cpp
+CMakeFiles/all_projects.dir/main_ll.cpp.o: CMakeFiles/all_projects.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/all_projects.dir/main_ll.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/all_projects.dir/main_ll.cpp.o -MF CMakeFiles/all_projects.dir/main_ll.cpp.o.d -o CMakeFiles/all_projects.dir/main_ll.cpp.o -c /home/rob/VScodeProjects/C++_all/main_ll.cpp
 
-CMakeFiles/all_projects.dir/main_bt.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/all_projects.dir/main_bt.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rob/VScodeProjects/C--_all/main_bt.cpp > CMakeFiles/all_projects.dir/main_bt.cpp.i
+CMakeFiles/all_projects.dir/main_ll.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/all_projects.dir/main_ll.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rob/VScodeProjects/C++_all/main_ll.cpp > CMakeFiles/all_projects.dir/main_ll.cpp.i
 
-CMakeFiles/all_projects.dir/main_bt.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/all_projects.dir/main_bt.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rob/VScodeProjects/C--_all/main_bt.cpp -o CMakeFiles/all_projects.dir/main_bt.cpp.s
+CMakeFiles/all_projects.dir/main_ll.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/all_projects.dir/main_ll.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rob/VScodeProjects/C++_all/main_ll.cpp -o CMakeFiles/all_projects.dir/main_ll.cpp.s
 
 # Object files for target all_projects
 all_projects_OBJECTS = \
-"CMakeFiles/all_projects.dir/main_bt.cpp.o"
+"CMakeFiles/all_projects.dir/main_ll.cpp.o"
 
 # External object files for target all_projects
 all_projects_EXTERNAL_OBJECTS =
 
-all_projects: CMakeFiles/all_projects.dir/main_bt.cpp.o
+all_projects: CMakeFiles/all_projects.dir/main_ll.cpp.o
 all_projects: CMakeFiles/all_projects.dir/build.make
 all_projects: src/Graphs/libbfs.a
 all_projects: src/Actual_interview_questions/libbitwise.a
 all_projects: src/Trees/libbt.a
+all_projects: src/LL/libll.a
 all_projects: CMakeFiles/all_projects.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rob/VScodeProjects/C--_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable all_projects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable all_projects"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/all_projects.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +109,6 @@ CMakeFiles/all_projects.dir/clean:
 .PHONY : CMakeFiles/all_projects.dir/clean
 
 CMakeFiles/all_projects.dir/depend:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/rob/VScodeProjects/C--_all /Users/rob/VScodeProjects/C--_all /Users/rob/VScodeProjects/C--_all/build /Users/rob/VScodeProjects/C--_all/build /Users/rob/VScodeProjects/C--_all/build/CMakeFiles/all_projects.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rob/VScodeProjects/C++_all/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rob/VScodeProjects/C++_all /home/rob/VScodeProjects/C++_all /home/rob/VScodeProjects/C++_all/build /home/rob/VScodeProjects/C++_all/build /home/rob/VScodeProjects/C++_all/build/CMakeFiles/all_projects.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/all_projects.dir/depend
 

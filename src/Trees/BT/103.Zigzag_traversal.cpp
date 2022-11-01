@@ -41,4 +41,6 @@ vector<vector<int>> Solution ::zigzagLevelOrder(TreeNode* root)
         levelorder+=1; //Leveleven=2
 
     }
+
+    return result;
 }

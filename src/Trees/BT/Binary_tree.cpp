@@ -38,6 +38,18 @@ Node* BT::build_tree(Node* root)
     return root;
 }
 
+
+void BT::inorder_traversal(Node * root,vector<int>&ans)
+{
+    if(root==nullptr)
+    {
+        return;
+    }
+    ans.push_back(root->data);
+    inorder_traversal(root->left,ans);
+    inorder_traversal(root->right,ans);
+}
+
 void BT::level_order_transversal(Node *root)
 {
     queue<Node *> binary_tree;

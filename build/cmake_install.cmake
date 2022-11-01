@@ -1,4 +1,4 @@
-# Install script for directory: /Users/rob/VScodeProjects/C--_all
+# Install script for directory: /home/rob/VScodeProjects/C++_all
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,6 +27,11 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -39,9 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/rob/VScodeProjects/C--_all/build/src/Actual_interview_questions/cmake_install.cmake")
-  include("/Users/rob/VScodeProjects/C--_all/build/src/Graphs/cmake_install.cmake")
-  include("/Users/rob/VScodeProjects/C--_all/build/src/Trees/cmake_install.cmake")
+  include("/home/rob/VScodeProjects/C++_all/build/src/Actual_interview_questions/cmake_install.cmake")
+  include("/home/rob/VScodeProjects/C++_all/build/src/LL/cmake_install.cmake")
+  include("/home/rob/VScodeProjects/C++_all/build/src/Graphs/cmake_install.cmake")
+  include("/home/rob/VScodeProjects/C++_all/build/src/Trees/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/rob/VScodeProjects/C--_all/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rob/VScodeProjects/C++_all/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

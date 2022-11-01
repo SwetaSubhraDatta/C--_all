@@ -48,27 +48,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rob/VScodeProjects/C--_all
+CMAKE_SOURCE_DIR = /home/rob/VScodeProjects/C++_all
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rob/VScodeProjects/C--_all/build
+CMAKE_BINARY_DIR = /home/rob/VScodeProjects/C++_all/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/opt/homebrew/Cellar/cmake/3.24.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/rob/VScodeProjects/C--_all/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/rob/VScodeProjects/C--_all/build/CMakeFiles /Users/rob/VScodeProjects/C--_all/build/src/Graphs//CMakeFiles/progress.marks
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Graphs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rob/VScodeProjects/C--_all/build/CMakeFiles 0
+	cd /home/rob/VScodeProjects/C++_all/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles /home/rob/VScodeProjects/C++_all/build/src/Graphs//CMakeFiles/progress.marks
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Graphs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Graphs/clean
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Graphs/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Graphs/preinstall
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Graphs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Graphs/preinstall
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Graphs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/rob/VScodeProjects/C++_all/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Graphs/CMakeFiles/bfs.dir/rule:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Graphs/CMakeFiles/bfs.dir/rule
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Graphs/CMakeFiles/bfs.dir/rule
 .PHONY : src/Graphs/CMakeFiles/bfs.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ bfs: src/Graphs/CMakeFiles/bfs.dir/rule
 
 # fast build rule for target.
 bfs/fast:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/build
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/build
 .PHONY : bfs/fast
 
 BFS/463.Island_perimter.o: BFS/463.Island_perimter.cpp.o
@@ -135,7 +135,7 @@ BFS/463.Island_perimter.o: BFS/463.Island_perimter.cpp.o
 
 # target to build an object file
 BFS/463.Island_perimter.cpp.o:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/463.Island_perimter.cpp.o
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/463.Island_perimter.cpp.o
 .PHONY : BFS/463.Island_perimter.cpp.o
 
 BFS/463.Island_perimter.i: BFS/463.Island_perimter.cpp.i
@@ -143,7 +143,7 @@ BFS/463.Island_perimter.i: BFS/463.Island_perimter.cpp.i
 
 # target to preprocess a source file
 BFS/463.Island_perimter.cpp.i:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/463.Island_perimter.cpp.i
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/463.Island_perimter.cpp.i
 .PHONY : BFS/463.Island_perimter.cpp.i
 
 BFS/463.Island_perimter.s: BFS/463.Island_perimter.cpp.s
@@ -151,7 +151,7 @@ BFS/463.Island_perimter.s: BFS/463.Island_perimter.cpp.s
 
 # target to generate assembly for a file
 BFS/463.Island_perimter.cpp.s:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/463.Island_perimter.cpp.s
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/463.Island_perimter.cpp.s
 .PHONY : BFS/463.Island_perimter.cpp.s
 
 BFS/695.Max_island_area.o: BFS/695.Max_island_area.cpp.o
@@ -159,7 +159,7 @@ BFS/695.Max_island_area.o: BFS/695.Max_island_area.cpp.o
 
 # target to build an object file
 BFS/695.Max_island_area.cpp.o:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/695.Max_island_area.cpp.o
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/695.Max_island_area.cpp.o
 .PHONY : BFS/695.Max_island_area.cpp.o
 
 BFS/695.Max_island_area.i: BFS/695.Max_island_area.cpp.i
@@ -167,7 +167,7 @@ BFS/695.Max_island_area.i: BFS/695.Max_island_area.cpp.i
 
 # target to preprocess a source file
 BFS/695.Max_island_area.cpp.i:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/695.Max_island_area.cpp.i
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/695.Max_island_area.cpp.i
 .PHONY : BFS/695.Max_island_area.cpp.i
 
 BFS/695.Max_island_area.s: BFS/695.Max_island_area.cpp.s
@@ -175,7 +175,7 @@ BFS/695.Max_island_area.s: BFS/695.Max_island_area.cpp.s
 
 # target to generate assembly for a file
 BFS/695.Max_island_area.cpp.s:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/695.Max_island_area.cpp.s
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/695.Max_island_area.cpp.s
 .PHONY : BFS/695.Max_island_area.cpp.s
 
 BFS/733.flood_fill.o: BFS/733.flood_fill.cpp.o
@@ -183,7 +183,7 @@ BFS/733.flood_fill.o: BFS/733.flood_fill.cpp.o
 
 # target to build an object file
 BFS/733.flood_fill.cpp.o:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/733.flood_fill.cpp.o
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/733.flood_fill.cpp.o
 .PHONY : BFS/733.flood_fill.cpp.o
 
 BFS/733.flood_fill.i: BFS/733.flood_fill.cpp.i
@@ -191,7 +191,7 @@ BFS/733.flood_fill.i: BFS/733.flood_fill.cpp.i
 
 # target to preprocess a source file
 BFS/733.flood_fill.cpp.i:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/733.flood_fill.cpp.i
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/733.flood_fill.cpp.i
 .PHONY : BFS/733.flood_fill.cpp.i
 
 BFS/733.flood_fill.s: BFS/733.flood_fill.cpp.s
@@ -199,7 +199,7 @@ BFS/733.flood_fill.s: BFS/733.flood_fill.cpp.s
 
 # target to generate assembly for a file
 BFS/733.flood_fill.cpp.s:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/733.flood_fill.cpp.s
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Graphs/CMakeFiles/bfs.dir/build.make src/Graphs/CMakeFiles/bfs.dir/BFS/733.flood_fill.cpp.s
 .PHONY : BFS/733.flood_fill.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/rob/VScodeProjects/C--_all/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/rob/VScodeProjects/C++_all/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

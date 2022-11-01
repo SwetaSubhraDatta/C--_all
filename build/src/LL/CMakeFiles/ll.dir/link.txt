@@ -1,0 +1,2 @@
+/usr/bin/ar qc libll.a CMakeFiles/ll.dir/core/ll.cpp.o CMakeFiles/ll.dir/203.remove_ll_elements.cpp.o
+/usr/bin/ranlib libll.a

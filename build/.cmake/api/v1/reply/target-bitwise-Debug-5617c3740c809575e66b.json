@@ -37,7 +37,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 4,
+				"line" : 7,
 				"parent" : 2
 			},
 			{
@@ -54,7 +54,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk"
+					"fragment" : "-g"
 				},
 				{
 					"fragment" : "-std=gnu++11"
@@ -64,11 +64,11 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/Users/rob/VScodeProjects/C--_all/bitwise"
+					"path" : "/home/rob/VScodeProjects/C++_all/bitwise"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/rob/VScodeProjects/C--_all/src/Actual_interview_questions/Samsung"
+					"path" : "/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung"
 				}
 			],
 			"language" : "CXX",
