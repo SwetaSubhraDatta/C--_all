@@ -1,0 +1,172 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/Actual_interview_questions",
+					"jsonFile" : "directory-src.Actual_interview_questions-Debug-cf8f49e976d5bc879667.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Actual_interview_questions",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/LL",
+					"jsonFile" : "directory-src.LL-Debug-30fa0cae8a0f988b35a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/LL",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/Graphs",
+					"jsonFile" : "directory-src.Graphs-Debug-8ccedce90d5fe732cf90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Graphs",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/Trees",
+					"jsonFile" : "directory-src.Trees-Debug-4046e73af8c2f5fa3840.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Trees",
+					"targetIndexes" : 
+					[
+						3,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "all_projects",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_projects::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_projects-Debug-c9a5bd83e8102224b8e2.json",
+					"name" : "all_projects",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bfs::@4e4cc01378e1dfd632b8",
+					"jsonFile" : "target-bfs-Debug-3b73b470de97ff1fd888.json",
+					"name" : "bfs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bitwise::@a764ba1a9216ae1c1088",
+					"jsonFile" : "target-bitwise-Debug-5617c3740c809575e66b.json",
+					"name" : "bitwise",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bt::@fa383e69f24aa3571bdc",
+					"jsonFile" : "target-bt-Debug-e476623ef51090004682.json",
+					"name" : "bt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ll::@3d8bb53e06c73f9f9049",
+					"jsonFile" : "target-ll-Debug-8fe1dd6da38862d833df.json",
+					"name" : "ll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "trie::@fa383e69f24aa3571bdc",
+					"jsonFile" : "target-trie-Debug-9cdfb57da4254b75a584.json",
+					"name" : "trie",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rob/VScodeProjects/C++_all/build",
+		"source" : "/home/rob/VScodeProjects/C++_all"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

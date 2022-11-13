@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/all_projects.dir/main_ll.cpp.o -o all_projects  src/Graphs/libbfs.a src/Actual_interview_questions/libbitwise.a src/Trees/libbt.a src/LL/libll.a 
+/usr/bin/g++ -g -rdynamic CMakeFiles/all_projects.dir/main_trie.cpp.o -o all_projects  src/Graphs/libbfs.a src/Actual_interview_questions/libbitwise.a src/Trees/libbt.a src/LL/libll.a src/Trees/libtrie.a 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdp.a CMakeFiles/dp.dir/Dynammic_Programming/322.Coin_change.cpp.o CMakeFiles/dp.dir/Dynammic_Programming/Fibonacci.cpp.o
+/usr/bin/ranlib libdp.a

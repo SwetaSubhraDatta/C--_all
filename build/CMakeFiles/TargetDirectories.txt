@@ -11,5 +11,6 @@
 /home/rob/VScodeProjects/C++_all/build/src/Graphs/CMakeFiles/edit_cache.dir
 /home/rob/VScodeProjects/C++_all/build/src/Graphs/CMakeFiles/rebuild_cache.dir
 /home/rob/VScodeProjects/C++_all/build/src/Trees/CMakeFiles/bt.dir
+/home/rob/VScodeProjects/C++_all/build/src/Trees/CMakeFiles/trie.dir
 /home/rob/VScodeProjects/C++_all/build/src/Trees/CMakeFiles/edit_cache.dir
 /home/rob/VScodeProjects/C++_all/build/src/Trees/CMakeFiles/rebuild_cache.dir

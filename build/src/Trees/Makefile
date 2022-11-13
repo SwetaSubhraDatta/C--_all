@@ -130,6 +130,20 @@ bt/fast:
 	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/build
 .PHONY : bt/fast
 
+# Convenience name for target.
+src/Trees/CMakeFiles/trie.dir/rule:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Trees/CMakeFiles/trie.dir/rule
+.PHONY : src/Trees/CMakeFiles/trie.dir/rule
+
+# Convenience name for target.
+trie: src/Trees/CMakeFiles/trie.dir/rule
+.PHONY : trie
+
+# fast build rule for target.
+trie/fast:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/trie.dir/build.make src/Trees/CMakeFiles/trie.dir/build
+.PHONY : trie/fast
+
 BT/100.Same_tree.o: BT/100.Same_tree.cpp.o
 .PHONY : BT/100.Same_tree.o
 
@@ -394,6 +408,30 @@ BT/gfg1.View_of_bt.cpp.s:
 	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/BT/gfg1.View_of_bt.cpp.s
 .PHONY : BT/gfg1.View_of_bt.cpp.s
 
+Trie/trie.o: Trie/trie.cpp.o
+.PHONY : Trie/trie.o
+
+# target to build an object file
+Trie/trie.cpp.o:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/trie.dir/build.make src/Trees/CMakeFiles/trie.dir/Trie/trie.cpp.o
+.PHONY : Trie/trie.cpp.o
+
+Trie/trie.i: Trie/trie.cpp.i
+.PHONY : Trie/trie.i
+
+# target to preprocess a source file
+Trie/trie.cpp.i:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/trie.dir/build.make src/Trees/CMakeFiles/trie.dir/Trie/trie.cpp.i
+.PHONY : Trie/trie.cpp.i
+
+Trie/trie.s: Trie/trie.cpp.s
+.PHONY : Trie/trie.s
+
+# target to generate assembly for a file
+Trie/trie.cpp.s:
+	cd /home/rob/VScodeProjects/C++_all/build && $(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/trie.dir/build.make src/Trees/CMakeFiles/trie.dir/Trie/trie.cpp.s
+.PHONY : Trie/trie.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -403,6 +441,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bt"
+	@echo "... trie"
 	@echo "... BT/100.Same_tree.o"
 	@echo "... BT/100.Same_tree.i"
 	@echo "... BT/100.Same_tree.s"
@@ -436,6 +475,9 @@ help:
 	@echo "... BT/gfg1.View_of_bt.o"
 	@echo "... BT/gfg1.View_of_bt.i"
 	@echo "... BT/gfg1.View_of_bt.s"
+	@echo "... Trie/trie.o"
+	@echo "... Trie/trie.i"
+	@echo "... Trie/trie.s"
 .PHONY : help
 
 

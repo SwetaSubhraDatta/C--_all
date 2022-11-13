@@ -181,29 +181,42 @@ bt/fast:
 	$(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/build
 .PHONY : bt/fast
 
-main_ll.o: main_ll.cpp.o
-.PHONY : main_ll.o
+#=============================================================================
+# Target rules for targets named trie
+
+# Build rule for target.
+trie: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 trie
+.PHONY : trie
+
+# fast build rule for target.
+trie/fast:
+	$(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/trie.dir/build.make src/Trees/CMakeFiles/trie.dir/build
+.PHONY : trie/fast
+
+main_trie.o: main_trie.cpp.o
+.PHONY : main_trie.o
 
 # target to build an object file
-main_ll.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/main_ll.cpp.o
-.PHONY : main_ll.cpp.o
+main_trie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/main_trie.cpp.o
+.PHONY : main_trie.cpp.o
 
-main_ll.i: main_ll.cpp.i
-.PHONY : main_ll.i
+main_trie.i: main_trie.cpp.i
+.PHONY : main_trie.i
 
 # target to preprocess a source file
-main_ll.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/main_ll.cpp.i
-.PHONY : main_ll.cpp.i
+main_trie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/main_trie.cpp.i
+.PHONY : main_trie.cpp.i
 
-main_ll.s: main_ll.cpp.s
-.PHONY : main_ll.s
+main_trie.s: main_trie.cpp.s
+.PHONY : main_trie.s
 
 # target to generate assembly for a file
-main_ll.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/main_ll.cpp.s
-.PHONY : main_ll.cpp.s
+main_trie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/main_trie.cpp.s
+.PHONY : main_trie.cpp.s
 
 # Help Target
 help:
@@ -218,9 +231,10 @@ help:
 	@echo "... bitwise"
 	@echo "... bt"
 	@echo "... ll"
-	@echo "... main_ll.o"
-	@echo "... main_ll.i"
-	@echo "... main_ll.s"
+	@echo "... trie"
+	@echo "... main_trie.o"
+	@echo "... main_trie.i"
+	@echo "... main_trie.s"
 .PHONY : help
 
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Graphs/BFS -I/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -I/home/rob/VScodeProjects/C++_all/src/LL/core
+CXX_INCLUDES = -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Graphs/BFS -I/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -I/home/rob/VScodeProjects/C++_all/src/LL/core -I/home/rob/VScodeProjects/C++_all/src/Trees/Trie
 
 CXX_FLAGS = -g -std=gnu++11
 

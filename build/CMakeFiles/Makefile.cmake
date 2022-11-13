@@ -56,4 +56,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/LL/CMakeFiles/ll.dir/DependInfo.cmake"
   "src/Graphs/CMakeFiles/bfs.dir/DependInfo.cmake"
   "src/Trees/CMakeFiles/bt.dir/DependInfo.cmake"
+  "src/Trees/CMakeFiles/trie.dir/DependInfo.cmake"
   )

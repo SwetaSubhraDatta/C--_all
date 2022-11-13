@@ -69,33 +69,34 @@ include CMakeFiles/all_projects.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/all_projects.dir/flags.make
 
-CMakeFiles/all_projects.dir/main_ll.cpp.o: CMakeFiles/all_projects.dir/flags.make
-CMakeFiles/all_projects.dir/main_ll.cpp.o: /home/rob/VScodeProjects/C++_all/main_ll.cpp
-CMakeFiles/all_projects.dir/main_ll.cpp.o: CMakeFiles/all_projects.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/all_projects.dir/main_ll.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/all_projects.dir/main_ll.cpp.o -MF CMakeFiles/all_projects.dir/main_ll.cpp.o.d -o CMakeFiles/all_projects.dir/main_ll.cpp.o -c /home/rob/VScodeProjects/C++_all/main_ll.cpp
+CMakeFiles/all_projects.dir/main_trie.cpp.o: CMakeFiles/all_projects.dir/flags.make
+CMakeFiles/all_projects.dir/main_trie.cpp.o: /home/rob/VScodeProjects/C++_all/main_trie.cpp
+CMakeFiles/all_projects.dir/main_trie.cpp.o: CMakeFiles/all_projects.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/all_projects.dir/main_trie.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/all_projects.dir/main_trie.cpp.o -MF CMakeFiles/all_projects.dir/main_trie.cpp.o.d -o CMakeFiles/all_projects.dir/main_trie.cpp.o -c /home/rob/VScodeProjects/C++_all/main_trie.cpp
 
-CMakeFiles/all_projects.dir/main_ll.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/all_projects.dir/main_ll.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rob/VScodeProjects/C++_all/main_ll.cpp > CMakeFiles/all_projects.dir/main_ll.cpp.i
+CMakeFiles/all_projects.dir/main_trie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/all_projects.dir/main_trie.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rob/VScodeProjects/C++_all/main_trie.cpp > CMakeFiles/all_projects.dir/main_trie.cpp.i
 
-CMakeFiles/all_projects.dir/main_ll.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/all_projects.dir/main_ll.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rob/VScodeProjects/C++_all/main_ll.cpp -o CMakeFiles/all_projects.dir/main_ll.cpp.s
+CMakeFiles/all_projects.dir/main_trie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/all_projects.dir/main_trie.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rob/VScodeProjects/C++_all/main_trie.cpp -o CMakeFiles/all_projects.dir/main_trie.cpp.s
 
 # Object files for target all_projects
 all_projects_OBJECTS = \
-"CMakeFiles/all_projects.dir/main_ll.cpp.o"
+"CMakeFiles/all_projects.dir/main_trie.cpp.o"
 
 # External object files for target all_projects
 all_projects_EXTERNAL_OBJECTS =
 
-all_projects: CMakeFiles/all_projects.dir/main_ll.cpp.o
+all_projects: CMakeFiles/all_projects.dir/main_trie.cpp.o
 all_projects: CMakeFiles/all_projects.dir/build.make
 all_projects: src/Graphs/libbfs.a
 all_projects: src/Actual_interview_questions/libbitwise.a
 all_projects: src/Trees/libbt.a
 all_projects: src/LL/libll.a
+all_projects: src/Trees/libtrie.a
 all_projects: CMakeFiles/all_projects.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable all_projects"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/all_projects.dir/link.txt --verbose=$(VERBOSE)

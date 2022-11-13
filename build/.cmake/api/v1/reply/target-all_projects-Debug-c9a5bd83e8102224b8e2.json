@@ -1,0 +1,191 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "all_projects"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/rob/VScodeProjects/C++_all/bitwise"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/rob/VScodeProjects/C++_all/src/Graphs/BFS"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/rob/VScodeProjects/C++_all/src/Trees/BT"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/rob/VScodeProjects/C++_all/src/LL/core"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/rob/VScodeProjects/C++_all/src/Trees/Trie"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "bitwise::@a764ba1a9216ae1c1088"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ll::@3d8bb53e06c73f9f9049"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "bfs::@4e4cc01378e1dfd632b8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "bt::@fa383e69f24aa3571bdc"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "trie::@fa383e69f24aa3571bdc"
+		}
+	],
+	"id" : "all_projects::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/Graphs/libbfs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/Actual_interview_questions/libbitwise.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/Trees/libbt.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/LL/libll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/Trees/libtrie.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "all_projects",
+	"nameOnDisk" : "all_projects",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main_trie.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -135,6 +135,7 @@ src/LL/clean: src/LL/CMakeFiles/ll.dir/clean
 
 # Recursive "all" directory target.
 src/Trees/all: src/Trees/CMakeFiles/bt.dir/all
+src/Trees/all: src/Trees/CMakeFiles/trie.dir/all
 .PHONY : src/Trees/all
 
 # Recursive "preinstall" directory target.
@@ -143,6 +144,7 @@ src/Trees/preinstall:
 
 # Recursive "clean" directory target.
 src/Trees/clean: src/Trees/CMakeFiles/bt.dir/clean
+src/Trees/clean: src/Trees/CMakeFiles/trie.dir/clean
 .PHONY : src/Trees/clean
 
 #=============================================================================
@@ -153,6 +155,7 @@ CMakeFiles/all_projects.dir/all: src/Actual_interview_questions/CMakeFiles/bitwi
 CMakeFiles/all_projects.dir/all: src/LL/CMakeFiles/ll.dir/all
 CMakeFiles/all_projects.dir/all: src/Graphs/CMakeFiles/bfs.dir/all
 CMakeFiles/all_projects.dir/all: src/Trees/CMakeFiles/bt.dir/all
+CMakeFiles/all_projects.dir/all: src/Trees/CMakeFiles/trie.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_projects.dir/build.make CMakeFiles/all_projects.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=1,2 "Built target all_projects"
@@ -160,7 +163,7 @@ CMakeFiles/all_projects.dir/all: src/Trees/CMakeFiles/bt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_projects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_projects.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 0
 .PHONY : CMakeFiles/all_projects.dir/rule
@@ -277,6 +280,32 @@ bt: src/Trees/CMakeFiles/bt.dir/rule
 src/Trees/CMakeFiles/bt.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/bt.dir/build.make src/Trees/CMakeFiles/bt.dir/clean
 .PHONY : src/Trees/CMakeFiles/bt.dir/clean
+
+#=============================================================================
+# Target rules for target src/Trees/CMakeFiles/trie.dir
+
+# All Build rule for target.
+src/Trees/CMakeFiles/trie.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/trie.dir/build.make src/Trees/CMakeFiles/trie.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/trie.dir/build.make src/Trees/CMakeFiles/trie.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rob/VScodeProjects/C++_all/build/CMakeFiles --progress-num=24,25 "Built target trie"
+.PHONY : src/Trees/CMakeFiles/trie.dir/all
+
+# Build rule for subdir invocation for target.
+src/Trees/CMakeFiles/trie.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Trees/CMakeFiles/trie.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/build/CMakeFiles 0
+.PHONY : src/Trees/CMakeFiles/trie.dir/rule
+
+# Convenience name for target.
+trie: src/Trees/CMakeFiles/trie.dir/rule
+.PHONY : trie
+
+# clean rule for target.
+src/Trees/CMakeFiles/trie.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Trees/CMakeFiles/trie.dir/build.make src/Trees/CMakeFiles/trie.dir/clean
+.PHONY : src/Trees/CMakeFiles/trie.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

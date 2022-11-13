@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/rob/VScodeProjects/C++_all/build",
-  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Graphs/BFS -I/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -I/home/rob/VScodeProjects/C++_all/src/LL/core -g -std=gnu++11 -o CMakeFiles/all_projects.dir/main_ll.cpp.o -c /home/rob/VScodeProjects/C++_all/main_ll.cpp",
-  "file": "/home/rob/VScodeProjects/C++_all/main_ll.cpp"
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Graphs/BFS -I/home/rob/VScodeProjects/C++_all/src/Actual_interview_questions/Samsung -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -I/home/rob/VScodeProjects/C++_all/src/LL/core -I/home/rob/VScodeProjects/C++_all/src/Trees/Trie -g -std=gnu++11 -o CMakeFiles/all_projects.dir/main_trie.cpp.o -c /home/rob/VScodeProjects/C++_all/main_trie.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/main_trie.cpp"
 },
 {
   "directory": "/home/rob/VScodeProjects/C++_all/build/src/Actual_interview_questions",
@@ -88,5 +88,10 @@
   "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
   "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/BT -g -std=gnu++11 -o CMakeFiles/bt.dir/BT/gfg1.View_of_bt.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/BT/gfg1.View_of_bt.cpp",
   "file": "/home/rob/VScodeProjects/C++_all/src/Trees/BT/gfg1.View_of_bt.cpp"
+},
+{
+  "directory": "/home/rob/VScodeProjects/C++_all/build/src/Trees",
+  "command": "/usr/bin/g++  -I/home/rob/VScodeProjects/C++_all/bitwise -I/home/rob/VScodeProjects/C++_all/src/Trees/Trie -g -std=gnu++11 -o CMakeFiles/trie.dir/Trie/trie.cpp.o -c /home/rob/VScodeProjects/C++_all/src/Trees/Trie/trie.cpp",
+  "file": "/home/rob/VScodeProjects/C++_all/src/Trees/Trie/trie.cpp"
 }
 ]
