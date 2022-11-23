@@ -57,7 +57,7 @@ int find_connected_components(vector<vector<int>> &grid, queue<pair<int, int>> &
         for (int i = 0; i < directions.size(); i++)        // iterate through the directions
         {
             int x = row_ele + directions[i].first;                                                             // Get the row element + the direction
-            int y = col_ele + directions[i].second;                                                            // Get the column element + the direction
+            int y = col_ele + directions[i].second;                    1                                        // Get the column element + the direction
             if (x < 0 || y < 0 || x >= grid.size() || y >= grid[0].size() || grid[x][y] == 0 || visited[x][y]) // check boundary and already visited
             {
                 continue;
