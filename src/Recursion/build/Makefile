@@ -48,27 +48,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rob/VScodeProjects/C++_all/src/Recursion
+CMAKE_SOURCE_DIR = /Users/rob/VScodeProjects/C--_all/src/Recursion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rob/VScodeProjects/C++_all/src/Recursion/build
+CMAKE_BINARY_DIR = /Users/rob/VScodeProjects/C--_all/src/Recursion/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/opt/homebrew/Cellar/cmake/3.24.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/src/Recursion/build/CMakeFiles /home/rob/VScodeProjects/C++_all/src/Recursion/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rob/VScodeProjects/C--_all/src/Recursion/build/CMakeFiles /Users/rob/VScodeProjects/C--_all/src/Recursion/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rob/VScodeProjects/C++_all/src/Recursion/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rob/VScodeProjects/C--_all/src/Recursion/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,6 +130,19 @@ dp/fast:
 .PHONY : dp/fast
 
 #=============================================================================
+# Target rules for targets named recurse
+
+# Build rule for target.
+recurse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recurse
+.PHONY : recurse
+
+# fast build rule for target.
+recurse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recurse.dir/build.make CMakeFiles/recurse.dir/build
+.PHONY : recurse/fast
+
+#=============================================================================
 # Target rules for targets named recursion
 
 # Build rule for target.
@@ -141,6 +154,30 @@ recursion: cmake_check_build_system
 recursion/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursion.dir/build.make CMakeFiles/recursion.dir/build
 .PHONY : recursion/fast
+
+24.Swap_pairs.o: 24.Swap_pairs.cpp.o
+.PHONY : 24.Swap_pairs.o
+
+# target to build an object file
+24.Swap_pairs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recurse.dir/build.make CMakeFiles/recurse.dir/24.Swap_pairs.cpp.o
+.PHONY : 24.Swap_pairs.cpp.o
+
+24.Swap_pairs.i: 24.Swap_pairs.cpp.i
+.PHONY : 24.Swap_pairs.i
+
+# target to preprocess a source file
+24.Swap_pairs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recurse.dir/build.make CMakeFiles/recurse.dir/24.Swap_pairs.cpp.i
+.PHONY : 24.Swap_pairs.cpp.i
+
+24.Swap_pairs.s: 24.Swap_pairs.cpp.s
+.PHONY : 24.Swap_pairs.s
+
+# target to generate assembly for a file
+24.Swap_pairs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recurse.dir/build.make CMakeFiles/recurse.dir/24.Swap_pairs.cpp.s
+.PHONY : 24.Swap_pairs.cpp.s
 
 Dynammic_Programming/322.Coin_change.o: Dynammic_Programming/322.Coin_change.cpp.o
 .PHONY : Dynammic_Programming/322.Coin_change.o
@@ -223,7 +260,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... dp"
+	@echo "... recurse"
 	@echo "... recursion"
+	@echo "... 24.Swap_pairs.o"
+	@echo "... 24.Swap_pairs.i"
+	@echo "... 24.Swap_pairs.s"
 	@echo "... Dynammic_Programming/322.Coin_change.o"
 	@echo "... Dynammic_Programming/322.Coin_change.i"
 	@echo "... Dynammic_Programming/322.Coin_change.s"

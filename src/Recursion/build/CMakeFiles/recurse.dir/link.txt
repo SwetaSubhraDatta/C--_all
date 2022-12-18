@@ -1,0 +1,2 @@
+/usr/bin/ar qc librecurse.a CMakeFiles/recurse.dir/24.Swap_pairs.cpp.o
+/usr/bin/ranlib librecurse.a

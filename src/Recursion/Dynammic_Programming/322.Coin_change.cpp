@@ -1,7 +1,6 @@
 #include <vector>
 #include <iostream>
 
-#define INT_MAX INT8_MAX
 using namespace std;
 
 class Solution {
@@ -39,11 +38,11 @@ public:
 
 };
 
-int main()
-{
-    vector<int>nums={1,2,5};
-    int amount=11;
-    Solution obj;
-    cout<<obj.coinChange(nums,amount);
-    return 0;
-}
+// int main()
+// {
+//     vector<int>nums={1,2,5};
+//     int amount=11;
+//     Solution obj;
+//     cout<<obj.coinChange(nums,amount);
+//     return 0;
+// }
